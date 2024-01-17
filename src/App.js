@@ -1,15 +1,8 @@
 import React from "react";
-import "./App.css";
-import axios from "axios";
+import TaskByRoma from "./taskByRoma/taskByRoma";
 
 function App() {
-   return (
-      <div className="wrapper">
-         <div className="app">
-            <div className="app__body"></div>
-         </div>
-      </div>
-   );
+   return <TaskByRoma />;
 }
 
 export default App;
